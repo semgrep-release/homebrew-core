@@ -210,7 +210,6 @@ class Semgrep < Formula
       system "opam", "exec", "--", "make", "core"
       system "opam", "exec", "--", "make", "core-install"
       bin.install "_build/install/default/bin/semgrep-core" => "semgrep-core"
-      bin.install "_build/install/default/bin/spacegrep" => "spacegrep"
     end
 
     ENV["SEMGREP_SKIP_BIN"] = "1"
