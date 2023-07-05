@@ -31,6 +31,7 @@ class Semgrep < Formula
   depends_on "opam" => :build
   depends_on "pipenv" => :build
   depends_on "pkg-config" => :build
+  depends_on "autoconf" => :build
   depends_on "gmp"
   depends_on "pcre"
   depends_on "pygments"
